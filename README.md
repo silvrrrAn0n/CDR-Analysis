@@ -4,15 +4,13 @@ Automated CDR forensic analysis and anomaly detection using Isolation Forest to 
 CDR Anomaly Detection
 A machine learning tool to identify high-risk phone numbers from Call Detail Records (CDR) using Isolation Forest.
 
+
 🚀 Overview
 This project analyzes 170k+ call records to detect suspicious behavior (fraud, spam, or telemarketing) by combining heuristic scoring with unsupervised machine learning.
-Dataset Source: Zenodo - CDR Dataset
+Dataset Source: https://zenodo.org/records/13254389
 Target: Top 2% statistical outliers.
 
-🛠️ Tech Stack
-Core: Python (Pandas, NumPy)
-ML: Scikit-Learn (Isolation Forest, StandardScaler)
-Viz: Matplotlib (Logarithmic & Jittered scatter plots)
+
 
 📊 Logic & Methodology
 Feature Engineering: Aggregates raw logs into Total_Calls, Unique_Contacts, Night_Calls, and Avg_Duration.
